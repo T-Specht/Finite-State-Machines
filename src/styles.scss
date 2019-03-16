@@ -1,0 +1,20 @@
+body, html{
+    margin: 5px;
+}
+
+.arrow{
+    
+    &:before{
+        content: "→";
+        position: absolute;
+        bottom: 0px;
+        transform: translateX(-50%);
+        left: 50%;
+    }
+
+    display: inline-block;
+    position: relative;
+    margin: 0px 10px;
+    padding-bottom: 7px;
+    //background: blue;
+}
